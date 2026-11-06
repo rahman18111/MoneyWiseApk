@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MONEYWISE</string>
+    <string name="app_subtitle">Student Monthly Expense Calculator</string>
+
+    <!-- Dashboard -->
+    <string name="welcome_student">Halo, Mahasiswa Bijak!</string>
+    <string name="dashboard_desc">Kelola uang saku bulanan, pantau pengeluaran, dan hindari dompet kempes sebelum akhir bulan.</string>
+    <string name="btn_goto_calculator">Kalkulator Pengeluaran</string>
+    <string name="btn_goto_history">Lihat Riwayat Simpan</string>
+    <string name="tips_title">Tips Hemat Mahasiswa Hari Ini</string>
+    <string name="tips_content">"Terapkan aturan 50/30/20: 50% kebutuhan pokok, 30% kuota &amp; hiburan, 20% dana darurat atau tabungan."</string>
+
+    <!-- Kalkulator -->
+    <string name="calc_title">Kalkulator Pengeluaran</string>
+    <string name="calc_subtitle">Masukkan anggaran saku dan alokasi kebutuhan bulanan</string>
+    <string name="label_monthly_budget">Uang Bulanan (Anggaran / Saku)</string>
+    <string name="hint_monthly_budget">Contoh: 2000000</string>
+    <string name="label_food">Biaya Makan</string>
+    <string name="hint_food">Contoh: 750000</string>
+    <string name="label_transport">Biaya Transportasi</string>
+    <string name="hint_transport">Contoh: 200000</string>
+    <string name="label_internet">Biaya Paket Data / Kuota</string>
+    <string name="hint_internet">Contoh: 100000</string>
+    <string name="label_college">Kebutuhan Kuliah (Buku, Print, dll)</string>
+    <string name="hint_college">Contoh: 250000</string>
+    <string name="btn_calculate">Hitung Pengeluaran</string>
+
+    <!-- Halaman Hasil -->
+    <string name="result_title">Hasil Analisis Keuangan</string>
+    <string name="label_total_expense">Total Pengeluaran</string>
+    <string name="label_remaining_balance">Sisa Saldo Uang Saku</string>
+    <string name="label_percentage">Persentase Pengeluaran</string>
+    <string name="label_breakdown">Rincian Alokasi Biaya</string>
+    <string name="btn_save_to_db">Simpan ke Database</string>
+    <string name="btn_view_history">Lihat Riwayat</string>
+    <string name="btn_recalculate">Hitung Ulang</string>
+
+    <!-- Riwayat -->
+    <string name="history_title">Riwayat Pengeluaran</string>
+    <string name="history_subtitle">Data tersimpan di Database MySQL XAMPP</string>
+    <string name="btn_refresh">Segarkan Data</string>
+    <string name="empty_history">Belum ada riwayat pengeluaran yang tersimpan.\nSilakan hitung dan simpan data pengeluaran Anda.</string>
+    <string name="loading_history">Memuat riwayat dari server...</string>
+
+    <!-- Validasi & Notifikasi Toast -->
+    <string name="err_empty_fields">Semua field pengeluaran wajib diisi!</string>
+    <string name="err_invalid_number">Format angka tidak valid. Masukkan angka bulat positif!</string>
+    <string name="err_zero_budget">Uang bulanan harus lebih besar dari Rp 0!</string>
+    <string name="err_negative_value">Nilai pengeluaran tidak boleh negatif!</string>
+</resources>
+

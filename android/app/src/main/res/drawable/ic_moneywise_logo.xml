@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#6C5CE7"
+        android:pathData="M54,4 A50,50 0 1,0 54,104 A50,50 0 1,0 54,4 Z" />
+    
+    <!-- Wallet / Money Emblem in White -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,36 C27.8,36 26,37.8 26,40 L26,72 C26,74.2 27.8,76 30,76 L78,76 C80.2,76 82,74.2 82,72 L82,40 C82,37.8 80.2,36 78,36 L30,36 Z M30,42 L78,42 L78,46 L30,46 L30,42 Z M68,52 C71.3,52 74,54.7 74,58 C74,61.3 71.3,64 68,64 C64.7,64 62,61.3 62,58 C62,54.7 64.7,52 68,52 Z" />
+</vector>
+

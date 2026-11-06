@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Modern Minimalist Purple & White Palette -->
+    <color name="purple_primary">#6C5CE7</color>
+    <color name="purple_primary_variant">#5843BE</color>
+    <color name="purple_dark">#4A37A5</color>
+    <color name="purple_light">#A29BFE</color>
+    <color name="purple_soft">#F3F0FA</color>
+    <color name="purple_soft_card">#ECE8F8</color>
+    
+    <!-- Background & Neutral -->
+    <color name="background_light">#F8F7FD</color>
+    <color name="surface_white">#FFFFFF</color>
+    <color name="stroke_light">#E5E0F4</color>
+    
+    <!-- Text Colors -->
+    <color name="text_title">#23213D</color>
+    <color name="text_body">#4A4765</color>
+    <color name="text_subtitle">#7E7B9A</color>
+    <color name="text_hint">#B3B0C8</color>
+    
+    <!-- Financial Status Indicators -->
+    <color name="safe_badge_bg">#E8F8F5</color>
+    <color name="safe_badge_text">#00B894</color>
+    
+    <color name="warning_badge_bg">#FEF5E7</color>
+    <color name="warning_badge_text">#E67E22</color>
+    
+    <color name="danger_badge_bg">#FDEDEC</color>
+    <color name="danger_badge_text">#E74C3C</color>
+
+    <!-- General Basic Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
+

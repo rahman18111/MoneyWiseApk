@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Izin Akses Internet dan Status Jaringan -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_moneywise_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_moneywise_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MoneyWise"
+        android:usesCleartextTraffic="true">
+
+        <!-- Dashboard / Main Activity (Entry Point) -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Kalkulator Pengeluaran Bulanan Mahasiswa -->
+        <activity
+            android:name=".CalculatorActivity"
+            android:exported="false"
+            android:label="Kalkulator Pengeluaran"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- Halaman Hasil Perhitungan -->
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false"
+            android:label="Hasil Analisis Pengeluaran"
+            android:parentActivityName=".CalculatorActivity" />
+
+        <!-- Halaman Riwayat Pengeluaran dari MySQL -->
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false"
+            android:label="Riwayat Pengeluaran"
+            android:parentActivityName=".MainActivity" />
+
+    </application>
+
+</manifest>
