@@ -58,3 +58,4 @@ MoneyWiseApk/
 1. Buka folder `android/` di **Android Studio**.
 2. Sinkronkan Gradle (Sync Project with Gradle Files).
 3. Jalankan aplikasi di Emulator atau perangkat Android Anda.
+
